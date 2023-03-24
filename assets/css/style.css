@@ -16,7 +16,7 @@ body {
 }
 
 a {
-  color: #f82249;
+  color: #9a49ee;
   text-decoration: none;
   transition: 0.5s;
 }
@@ -24,7 +24,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #f8234a;
+  color: #9a49ee;
   outline: none;
   text-decoration: none;
 }
@@ -61,6 +61,7 @@ h6 {
   height: 100%;
   overflow: visible;
   background: #fff url("../img/preloader.svg") no-repeat center center;
+
 }
 
 /*--------------------------------------------------------------
@@ -73,7 +74,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #f82249;
+  background: #9a49ee;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -87,7 +88,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #f94a6a;
+  background: #9a49ee;
   color: #fff;
 }
 
@@ -110,7 +111,7 @@ h6 {
   display: block;
   width: 60px;
   height: 5px;
-  background: #f82249;
+  background: #9a49ee;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -165,7 +166,7 @@ h6 {
 }
 
 #header #logo h1 span {
-  color: #f82249;
+  color: #9a49ee;
 }
 
 #header #logo h1 a,
@@ -190,11 +191,11 @@ h6 {
 --------------------------------------------------------------*/
 .buy-tickets {
   color: #fff;
-  background: #f82249;
+  background: #9a49ee;
   padding: 7px 22px;
   margin: 0 0 0 15px;
   border-radius: 50px;
-  border: 2px solid #f82249;
+  border: 2px solid #9a49ee;
   transition: all ease-in-out 0.3s;
   font-weight: 500;
   line-height: 1;
@@ -273,7 +274,7 @@ h6 {
   height: 2px;
   bottom: -6px;
   left: 0;
-  background-color: #f82249;
+  background-color: #9a49ee;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -325,7 +326,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #f82249;
+  color: #9a49ee;
 }
 
 .navbar .dropdown:hover>ul {
@@ -430,7 +431,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #f82249;
+  color: #9a49ee;
 }
 
 .navbar-mobile .getstarted,
@@ -465,7 +466,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #f82249;
+  color: #9a49ee;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -478,7 +479,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/hero-bg.jpg) top center;
+  background: url(../img/hero-bg.png) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -529,7 +530,7 @@ h6 {
 }
 
 #hero h1 span {
-  color: #f82249;
+  color: #9a49ee;
 }
 
 @media (max-width: 991px) {
@@ -553,7 +554,7 @@ h6 {
 #hero .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#f82249 50%, rgba(101, 111, 150, 0.15) 52%);
+  background: radial-gradient(#9a49ee 50%, rgba(101, 111, 150, 0.15) 52%);
   border-radius: 50%;
   display: block;
   position: relative;
@@ -594,7 +595,7 @@ h6 {
 }
 
 #hero .play-btn:hover::after {
-  border-left: 15px solid #f82249;
+  border-left: 15px solid #9a49ee;
   transform: scale(20);
 }
 
@@ -628,11 +629,11 @@ h6 {
   margin: 10px;
   color: #fff;
   animation-delay: 0.8s;
-  border: 2px solid #f82249;
+  border: 2px solid #9a49ee;
 }
 
 #hero .about-btn:hover {
-  background: #f82249;
+  background: #9a49ee;
   color: #fff;
 }
 
@@ -652,7 +653,7 @@ h6 {
 # About Section
 --------------------------------------------------------------*/
 #about {
-  background: url("../img/about-bg.jpg");
+  background: url("../img/about2-bg.jpg");
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -698,19 +699,19 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Speakers Section
+# services Section
 --------------------------------------------------------------*/
-#speakers {
+#services {
   padding: 60px 0 30px 0;
 }
 
-#speakers .speaker {
+#services .services {
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
 }
 
-#speakers .speaker .details {
+#services .services .details {
   background: rgba(6, 12, 34, 0.76);
   position: absolute;
   left: 0;
@@ -721,57 +722,57 @@ h6 {
   transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-#speakers .speaker .details h3 {
+#services .services .details h3 {
   color: #fff;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
 }
 
-#speakers .speaker .details p {
+#services .services .details p {
   color: #fff;
   font-size: 15px;
   margin-bottom: 10px;
   font-style: italic;
 }
 
-#speakers .speaker .details .social {
+#services .services .details .social {
   height: 40px;
 }
 
-#speakers .speaker .details .social i {
+#services .services .details .social i {
   line-height: 0;
   margin: 0 2px;
 }
 
-#speakers .speaker .details a {
+#services .services .details a {
   color: #fff;
 }
 
-#speakers .speaker .details a:hover {
-  color: #f82249;
+#services .services .details a:hover {
+  color: #9a49ee;
 }
 
-#speakers .speaker:hover .details {
+#services .services:hover .details {
   bottom: 0;
 }
 
-#speakers-details {
+#services-details {
   padding: 60px 0;
 }
 
-#speakers-details .details h2 {
+#services-details .details h2 {
   color: #112363;
   font-size: 28px;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
-#speakers-details .details .social {
+#services-details .details .social {
   margin-bottom: 15px;
 }
 
-#speakers-details .details .social a {
+#services-details .details .social a {
   background: #e9edfb;
   color: #112363;
   line-height: 1;
@@ -785,17 +786,17 @@ h6 {
   justify-content: center;
 }
 
-#speakers-details .details .social a:hover {
-  background: #f82249;
+#services-details .details .social a:hover {
+  background: #9a49ee;
   color: #fff;
 }
 
-#speakers-details .details .social a i {
+#services-details .details .social a i {
   font-size: 16px;
   line-height: 0;
 }
 
-#speakers-details .details p {
+#services-details .details p {
   color: #112363;
   font-size: 15px;
   margin-bottom: 10px;
@@ -849,7 +850,7 @@ h6 {
 }
 
 #schedule .nav-tabs a.active {
-  background-color: #f82249;
+  background-color: #9a49ee;
   color: #fff;
 }
 
@@ -886,7 +887,7 @@ h6 {
   display: inline-block;
 }
 
-#schedule .schedule-item .speaker {
+#schedule .schedule-item .services {
   width: 60px;
   height: 60px;
   overflow: hidden;
@@ -895,7 +896,7 @@ h6 {
   margin: 0 10px 10px 0;
 }
 
-#schedule .schedule-item .speaker img {
+#schedule .schedule-item .services img {
   height: 100%;
   transform: translateX(-50%);
   margin-left: 50%;
@@ -1029,7 +1030,7 @@ h6 {
 }
 
 #hotels a:hover {
-  color: #f82249;
+  color: #9a49ee;
 }
 
 #hotels .stars {
@@ -1067,11 +1068,11 @@ h6 {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #f82249;
+  border: 1px solid #9a49ee;
 }
 
 #gallery .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #f82249;
+  background-color: #9a49ee;
 }
 
 #gallery .swiper-slide-active {
@@ -1084,7 +1085,7 @@ h6 {
   }
 
   #gallery .swiper-slide-active {
-    border: 5px solid #f82249;
+    border: 5px solid #9a49ee;
     padding: 4px;
     background: #fff;
     z-index: 1;
@@ -1147,7 +1148,7 @@ h6 {
 #faq .faq-list .question {
   display: block;
   position: relative;
-  font-family: #f82249;
+  font-family: #9a49ee;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
@@ -1178,7 +1179,7 @@ h6 {
 }
 
 #faq .faq-list .collapsed:hover {
-  color: #f82249;
+  color: #9a49ee;
 }
 
 #faq .faq-list .collapsed .icon-show {
@@ -1244,7 +1245,7 @@ h6 {
   border: 0;
   padding: 9px 25px;
   cursor: pointer;
-  background: #f82249;
+  background: #9a49ee;
   color: #fff;
   transition: all 0.3s ease;
   outline: none;
@@ -1304,18 +1305,18 @@ h6 {
   opacity: 0.7;
 }
 
-#buy-tickets .card .btn {
+#buy-tickets .card .btn{
   font-size: 15px;
   border-radius: 50px;
   padding: 10px 40px;
   transition: all 0.2s;
-  background-color: #f82249;
+  background-color: #9a49ee;
   border: 0;
   color: #fff;
 }
 
-#buy-tickets .card .btn:hover {
-  background-color: #e0072f;
+#buy-tickets .card .btn:hover{
+  background-color: #6e2ab6;
 }
 
 #buy-tickets #buy-ticket-modal input,
@@ -1328,13 +1329,13 @@ h6 {
   border-radius: 50px;
   padding: 10px 40px;
   transition: all 0.2s;
-  background-color: #f82249;
+  background-color: #9a49ee;
   border: 0;
   color: #fff;
 }
 
 #buy-tickets #buy-ticket-modal .btn:hover {
-  background-color: #e0072f;
+  background-color: #6e2ab6;
 }
 
 /*--------------------------------------------------------------
@@ -1353,7 +1354,7 @@ h6 {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #f82249;
+  color: #9a49ee;
 }
 
 #contact .contact-info address,
@@ -1375,7 +1376,7 @@ h6 {
 }
 
 #contact .contact-info a:hover {
-  color: #f82249;
+  color: #9a49ee;
 }
 
 #contact .contact-address,
@@ -1403,7 +1404,7 @@ h6 {
 #contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
+  background: #6e2ab6;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1450,7 +1451,7 @@ h6 {
 
 #contact .php-email-form input:focus,
 #contact .php-email-form textarea:focus {
-  border-color: #f82249;
+  border-color: #9a49ee;
 }
 
 #contact .php-email-form input {
@@ -1462,7 +1463,7 @@ h6 {
 }
 
 #contact .php-email-form button[type=submit] {
-  background: #f82249;
+  background: #9a49ee;
   border: 0;
   padding: 10px 40px;
   color: #fff;
@@ -1472,7 +1473,7 @@ h6 {
 }
 
 #contact .php-email-form button[type=submit]:hover {
-  background: #e0072f;
+  background: #6e2ab6;
 }
 
 @keyframes animate-loading {
@@ -1548,7 +1549,7 @@ h6 {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #f82249;
+  background: #9a49ee;
   color: #fff;
 }
 
@@ -1559,7 +1560,7 @@ h6 {
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
-  border-bottom: 2px solid #f82249;
+  border-bottom: 2px solid #9a49ee;
 }
 
 #footer .footer-top .footer-links {
@@ -1574,7 +1575,7 @@ h6 {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 5px;
-  color: #f82249;
+  color: #9a49ee;
   font-size: 18px;
 }
 
@@ -1592,7 +1593,7 @@ h6 {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #f82249;
+  color: #9a49ee;
 }
 
 #footer .footer-top .footer-contact {
@@ -1614,7 +1615,7 @@ h6 {
 }
 
 #footer .footer-top .footer-newsletter input[type=submit] {
-  background: #f82249;
+  background: #9a49ee;
   border: 0;
   width: 35%;
   padding: 6px 0;
@@ -1637,4 +1638,171 @@ h6 {
   text-align: center;
   font-size: 13px;
   color: #ddd;
+}
+
+/* Table Styles */
+.demo{ font-family: 'Noto Sans', sans-serif; }
+.panel{
+    background: linear-gradient(to right, #9a49ee, #2c3e50);
+    padding: 0;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 0 5px rgba(0,0,0,0.05),0 0 0 10px rgba(0,0,0,0.05);
+}
+.panel .panel-heading{
+    padding: 20px 15px;
+    border-radius: 10px 10px 0 0;
+    margin: 0;
+}
+.panel .panel-heading .title{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 40px;
+    margin: 0;
+}
+.panel .panel-heading .btn{
+    color: rgba(255,255,255,0.5);
+    background: transparent;
+    font-size: 16px;
+    text-transform: capitalize;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+.panel .panel-heading .btn:hover{
+    color: #fff;
+    text-shadow: 3px 3px rgba(255,255,255,0.2);
+}
+.panel .panel-heading .form-control{
+    color: #fff;
+    background-color: transparent;
+    width: 35%;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+.panel .panel-heading .form-control:focus{
+    background-color: rgba(255,255,255,0.2);
+    box-shadow: none;
+    outline: none;
+}
+.panel .panel-heading .form-control::placeholder{
+    color: rgba(255,255,255,0.5);
+    font-size: 15px;
+    font-weight: 500;
+}
+.panel .panel-body{ padding: 0; }
+.panel .panel-body .table thead tr th{
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 12px;
+    border: none;
+}
+.panel .panel-body .table tbody tr td{
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 12px;
+    vertical-align: middle;
+    border: none;
+}
+.panel .panel-body .table tbody 
+.panel .panel-body .table tbody .action-list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.panel .panel-body .table tbody .action-list li{
+    display: inline-block;
+    margin: 0 5px;
+}
+.panel .panel-body .table tbody .action-list li a{
+    color: #fff;
+    font-size: 15px;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+}
+.panel .panel-body .table tbody .action-list li a:hover{ text-shadow: 3px 3px 0 rgba(255,255,255,0.3); }
+.panel .panel-body .table tbody .action-list li a:before,
+.panel .panel-body .table tbody .action-list li a:after{
+    content: attr(data-tip);
+    color: #fff;
+    background-color: #111;
+    font-size: 12px;
+    padding: 5px 7px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    display: none;
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    top: -32px;
+    transition: all 0.3s ease 0s;
+}
+.panel .panel-body .table tbody .action-list li a:after{
+    content: '';
+    height: 15px;
+    width: 15px;
+    padding: 0;
+    border-radius: 0;
+    transform: translateX(-50%) rotate(45deg);
+    top: -18px;
+    z-index: -1;
+}
+.panel .panel-body .table tbody .action-list li a:hover:before,
+.panel .panel-body .table tbody .action-list li a:hover:after{
+    display: block;
+}
+.panel .panel-footer{
+    color: #fff;
+    background-color: transparent;
+    padding: 15px;
+    border: none;
+}
+.panel .panel-footer .col{ line-height: 35px; }
+.pagination{ margin: 0; }
+.pagination li a{
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid transparent;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 31px;
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    margin: 0 3px;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+.pagination li a:hover{
+    color: #fff;
+    background-color: transparent;
+    border-color: rgba(255,255,255,0.2);
+}
+.pagination li a:focus,
+.pagination li.active a,
+.pagination li.active a:hover{
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+}
+.pagination li:first-child a,
+.pagination li:last-child a{
+    border-radius: 50%;
+}
+@media only screen and (max-width:767px){
+    .panel .panel-heading .title{
+        text-align: center;
+        margin: 0 0 10px;
+    }
+    .panel .panel-heading .btn_group{ text-align: center; }
 }
