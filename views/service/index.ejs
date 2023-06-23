@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include("../partials/header.ejs") %>
+<body>
+<div class="container">
+    <h1>All services</h1>
+<div>
+    <a class="btn btn-sm btn-success" href="/service/create">Add service</a>
+</div>
+    <% for (let service of services){%>
+    <div class="card mb-3">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title"><%= service.title %> </h5>
+
+                    <p class="card-text"><%= service.description %></p>
+                    <a class="btn btn-primary" href="/services/<%=service._id%>">View <%=service.title%></a>
+                    <div class="card-body">
+                        <a class="card-link btn btn-info" href="/service/<%=service._id%>/edit">Edit</a>
+                        <form class="d-inline" action="/service/<%=service._id%>?_method=DELETE" method="POST">
+                            <button class="btn btn-danger">Delete</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <% }%>
+</div>
+</body>
+</html>

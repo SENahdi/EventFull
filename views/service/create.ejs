@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include("../partials/header.ejs") %>
+    <body>
+        <div class="row">
+            <h1 class="text-center">New Service</h1>
+            <div class="col-6 offset-3">
+                <form action="/service/create" method="POST" novalidate class="validated-form">
+                    <div class="mb-3">
+                        <label class="form-label" for="title">Title</label>
+                        <input class="form-control" type="text" id="title" name="service[title]" required>
+                        <div class="valid-feedback">
+                            nice title!
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="headline">Headline</label>
+                        <input class="form-control" type="text" id="headline" name="service[headline]" required>
+                        <div class="valid-feedback">
+                            looks good!
+                        </div>                
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label" for="description">Description</label>
+                        <textarea class="form-control" type="text" id="description" name="service[description]" required></textarea>
+                        <div class="valid-feedback">
+                            looks good!
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="instagram">Instagram</label>
+                        <textarea class="form-control" type="text" id="instagram" name="service[instagram]" required></textarea>
+                        <div class="valid-feedback">
+                            looks good!
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="twitter">Twitter</label>
+                        <textarea class="form-control" type="text" id="twitter" name="service[twitter]" required></textarea>
+                        <div class="valid-feedback">
+                            looks good!
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <button class="btn btn-success">Add service</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
